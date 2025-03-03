@@ -43,3 +43,26 @@ Since HTML is not the only markup language, there are others like xml, xhtml, la
 https://developers.google.com/search/docs/crawling-indexing/special-tags 
 link to know about meta tags
 
+
+Tags, Elements and Attributes
+
+<h1 title = "Heading one">Heading2</h1>
+
+Here, the complete thing is an element 
+h1 is a tag 
+and title is the tag's property called attribute
+Note : title tag shows when you hover over the heading. title is a global attribute and can be used with any tag
+
+
+It is good practice to close all elements. If it doesn't support a closing tag then make it self closing
+example : <br />
+
+anchor tag is used to open an external link and it has an attribute href
+
+You can use Mozilla Developer Network(mdn) to know more about a tag and it's attributes.
+
+Some attributes are compulsory like href otherwise a tag won't work 
+
+**we can type p>lorem20 and this will tell emmit to generate a paragraph with 20 words 
+
+<pre> tag helps us retain indentation while <p> does not. But <pre> tag's attributes are deprecated and most browsers don't support them.
