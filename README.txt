@@ -66,3 +66,37 @@ Some attributes are compulsory like href otherwise a tag won't work
 **we can type p>lorem20 and this will tell emmit to generate a paragraph with 20 words 
 
 <pre> tag helps us retain indentation while <p> does not. But <pre> tag's attributes are deprecated and most browsers don't support them.
+
+
+<!-- dsfasdfas --> 
+format for commenting
+
+
+<b> vs <strong>
+<b> is just to make some text bold and draw attention
+<strong> is used to strong importance to something, like warnings.
+The effect looks the same but it's good to use proper structure. <strong> might give a different effect in certain browsers.
+
+similarly there are <i> and <em> (emphasis) tag.
+
+<i> tag is used for Alternative voice or mood, Taxonomic designations (such as the genus and species "Homo sapiens"),Thoughts (such as "She wondered, What is this writer talking about, anyway?") etc
+
+<em> tag is to put emphasis on the content
+A person or software reading the text would pronounce the words in this tag with an emphasis, using verbal stress.
+
+<ul> -> unordered list
+
+ul>li*5 : makes an unordered list with 5 elements
+
+
+The <small> HTML element represents side-comments and small print, like copyright and legal text. By default, it renders text within it one font-size smaller
+
+<sub> and <sup> Tags
+The <sub> HTML element specifies inline text which should be displayed as subscript 
+The <sup> HTML element specifies inline text which is to be displayed as superscript    
+
+<del> and <ins>
+The <del> HTML element represents a range of text that has been deleted from a document. This can be used when rendering "track changes" or source code diff information, for example. The <ins> element can be used for the opposite purpose: to indicate text that has been added to the document.
+
+The <mark> HTML element represents text which is marked or highlighted for reference or notation purposes.
+<mark> indicates a portion of the document's content which is likely to be relevant to the user's current activity. This might be used, for example, to indicate the words that matched a search operation.
