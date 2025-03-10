@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="./sharukh.jpg" alt="Image not found">
+
+    <img src="https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="200px" alt="Image not found">
+
+    <picture> 
+        <source media="(min-width : 650px)" srcset="./sharukh.jpg" />
+        <source media="(min-width : 460px)" srcset="./sharukh2.jpg" />
+        <img src="./sharukh.jpg" alt="">
+    </picture>
+
+    <!-- Image map generator -->
+    <img src="sharukh.jpg" usemap="#image-map">
+
+    <map name="image-map">
+        <area onclick="Face()" target="" alt="Face" title="Face" href="" coords="139,47,27" shape="circle">
+        <area onclick="Hands()" alt="Hands" title="Hands" href="" coords="75,175,207,136" shape="rect">
+    </map>
+
+    <script>
+        function Face()
+        {
+           alert("You cliked on face"); 
+        }
+
+        function Hands()
+        {
+           alert("You cliked on hands"); 
+        }
+    </script>
+</body>
+</html>

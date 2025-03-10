@@ -112,3 +112,13 @@ blockquote helps browser recognize quotes and it helps in search results
 The <address> HTML element indicates that the enclosed HTML provides contact information for a person or people, or for an organization.
 
 The <cite> HTML element is used to mark up the title of a cited creative work. 
+
+we can use <a> tag to scroll to a section of our page using id.
+
+
+The <picture> HTML element contains zero or more <source> elements and one <img> element to offer alternative versions of an image for different display/device scenarios.
+
+The browser will consider each child <source> element and choose the best match among them. If no matches are found—or the browser doesn't support the <picture> element—the URL of the <img> element's src attribute is selected. The selected image is then presented in the space occupied by the <img> element.
+
+
+We can create area maps for images which helps us perform different functions based on what part of the image we clicked on.
