@@ -100,3 +100,15 @@ The <del> HTML element represents a range of text that has been deleted from a d
 
 The <mark> HTML element represents text which is marked or highlighted for reference or notation purposes.
 <mark> indicates a portion of the document's content which is likely to be relevant to the user's current activity. This might be used, for example, to indicate the words that matched a search operation.
+
+We can provide styling in another file using css or we can provide in the same html file using <style> tag inside <head> tag.
+
+Both methods of styling can override each other depending upon where they are declared, the later one overrides the prior one.
+
+Also if we style an individual element it will override the style given in head
+
+blockquote helps browser recognize quotes and it helps in search results
+
+The <address> HTML element indicates that the enclosed HTML provides contact information for a person or people, or for an organization.
+
+The <cite> HTML element is used to mark up the title of a cited creative work. 
