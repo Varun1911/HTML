@@ -169,3 +169,23 @@ IDs are used to target a unique element using js (old convention but still follo
 
 Iframe is used to load another page, or youtube video, or vimeo video, or a section of another page into your webpage. Iframe has security issues that's why it's mostly used for videos/video player.
 The video you want to embed must have inspection.
+
+
+metadata - data/information about the data. Ex- data size, date of creation, date of modification etc.
+
+Head contains a lot of meta information
+
+title contains the title of the page
+
+style contains the styling data
+
+link is used to link things like css, rel attribute tells the relation.
+
+The charset attribute tells which character set to use. If you want to support other language characters too use utf-16 etc.
+
+other attributes in the meta tag have a little different structure 
+They have a name and some content.
+
+The viewport attribute is mostly used for mobile devices, to make our content display properly on mobile devices as well. The range of initial scale is 0.1-10. After 1 the change is negligible.
+
+We can also load scripts in the head tag using script tag. This might be done to initial interactivity as soon as any element loads.
