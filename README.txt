@@ -156,3 +156,16 @@ check the tables html for more styling norms
 
 If an element takes up an entire row space on the browser it's called a block level element. Otherwise it's called an inline element. You check that by inspecting the elements on the browser
 Ex- span is inline while h1 is block level element
+
+
+
+Classes and Ids are you to select elements. A common use case of selecting elements is adding styling to them.
+
+In styling classes are denoted beginning with a dot(.) and IDs are denoted beginning with a hash(#).
+
+It is considered best practice to keep Ids unique while the same class name can be used by multiple elements. HTML won't give you any error even if you use the same ID for multiple elements.
+IDs are used to target a unique element using js (old convention but still follow).
+
+
+Iframe is used to load another page, or youtube video, or vimeo video, or a section of another page into your webpage. Iframe has security issues that's why it's mostly used for videos/video player.
+The video you want to embed must have inspection.
