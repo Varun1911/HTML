@@ -153,3 +153,6 @@ we can give styling to the table like so -
 </style>
 
 check the tables html for more styling norms
+
+If an element takes up an entire row space on the browser it's called a block level element. Otherwise it's called an inline element. You check that by inspecting the elements on the browser
+Ex- span is inline while h1 is block level element
