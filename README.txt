@@ -122,3 +122,34 @@ The browser will consider each child <source> element and choose the best match 
 
 
 We can create area maps for images which helps us perform different functions based on what part of the image we clicked on.
+
+
+To create a table we can use the shortcut
+table>tr this makes a table with a table row
+with tr we have th i.e table heading and td i.e table data
+
+we can multiply td, th and tr with a number to get multiple data, heading or rows respectively
+table>tr*3>td*5
+
+we can give styling to the table like so -
+<style>
+        table
+        {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        td, th
+        {
+            border : 1px solid black;
+            padding: 10px;
+        }
+
+        tr:nth-child(even)
+        {
+            background-color: #313131;
+        }
+</style>
+
+check the tables html for more styling norms
