@@ -189,3 +189,28 @@ They have a name and some content.
 The viewport attribute is mostly used for mobile devices, to make our content display properly on mobile devices as well. The range of initial scale is 0.1-10. After 1 the change is negligible.
 
 We can also load scripts in the head tag using script tag. This might be done to initial interactivity as soon as any element loads.
+
+
+Forms help us send data to server. Forms are really important.
+Forms can have many input elements like text area, btns etc.
+All elements in a form are submitted at once to the server/backend(like a bundle).
+
+action attribute tells us where the backend is.
+
+We have 2 types of methods - get and post 
+Whenever we to send data to the server, we mostly use post. The data is sent in encrypted format. In some forms data is also sent in clear text format. 
+Ex- google search form. You can see the search text in the url itself as a clear text.
+
+With Get method our info is sent in clear text format.
+
+In text input we can give a placeHolder to tell the user what are we expecting. But this may not work properly with screen readers etc. So, it's good practice to inlcude a label with input. 
+"for" attribute in label tag helps us associate the label with an input.
+Put the ID of the input in the "for" attribute.
+
+
+form has other attributes like 
+"accept-charset" which allows different character sets.
+"autocomplete" which turns on/off autocomplete.
+"enctype" which tells the encoding type.
+
+
